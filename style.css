@@ -1,0 +1,61 @@
+/* TODO: Background area */
+
+.container {
+  display: block;
+  text-align: center;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: rgb(146, 81, 146);
+  color: white;
+}
+
+/* TODO: For buttons */
+table {
+  margin: auto;
+}
+
+/* TODO: Input area, which will display input and output */
+input {
+  border-radius: 21px;
+  background-color: rgb(224, 200, 224);
+  border: 5px solid transparent;
+  font-size: 34px;
+  height: 75px;
+  width: 456px;
+}
+
+/* TODO: Styling for simple buttons */
+button {
+  border-radius: 20px;
+  font-size: 40px;
+  background: rgb(224, 200, 224);
+  width: 102px;
+  height: 90px;
+  margin: 6px;
+  color: purple;
+}
+
+/* TODO: Styling for Action buttons*/
+.Unique-button {
+  background-color: rgb(146, 81, 146);
+  color: white;
+}
+
+/* TODO: Calculator area */
+.calculator {
+  border: none;
+  background-color: white;
+  padding: 25px;
+  border-radius: 40px;
+  display: inline-block;
+}
+
+h1 {
+  font-size: 30px;
+  font-family: "Display";
+}
+h2 {
+  font-size: 25px;
+  font-family: "Arial";
+}
