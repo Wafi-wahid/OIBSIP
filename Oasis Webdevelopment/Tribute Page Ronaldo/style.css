@@ -1,0 +1,226 @@
+body {
+  background-color: black;
+  border: border-box;
+}
+
+/* TODO: Tribute page, Navigation bar */
+.nav-bar {
+  background-color: lawngreen;
+  height: 55px;
+  display: flex;
+  color: black;
+  font-family: "Audiowide", sans-serif;
+  justify-content: center;
+  align-items: center;
+}
+
+.border {
+  border: 2px solid transparent;
+  padding: 15px;
+}
+.border:hover {
+  border: 2px solid black;
+}
+
+/* TODO: Tribute page, top title: Cristiano Ronaldo */
+#title {
+  font-family: "Audiowide", sans-serif;
+  text-align: center;
+  color: aliceblue;
+  font-size: 50px;
+}
+
+/* TODO: Tribute page, Background image */
+#image {
+  max-width: 100%;
+  height: 550px;
+  width: 1500px;
+}
+
+#img-caption {
+  font-family: "Audiowide", sans-serif;
+  text-align: center;
+  color: aliceblue;
+  font-size: 30px;
+}
+
+/* TODO: Tribute page, each section(About,Club career, achivements, info) styling*/
+.sec-title {
+  font-family: "Audiowide", sans-serif;
+  text-align: center;
+  color: aliceblue;
+  font-size: 30px;
+  border: 2px solid lawngreen;
+  height: 50px;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+/* TODO: About section area */
+.about-info {
+  font-family: "Audiowide", sans-serif;
+  padding: 3vh 3vw;
+  background-color: azure;
+  color: black;
+  width: auto;
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+  display: inline-block;
+  text-align: justify;
+}
+.about-info p {
+  font-size: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.quote {
+  background-color: lawngreen;
+  border-radius: 25px;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  width: auto;
+  height: auto;
+}
+
+blockquote,
+figcaption {
+  color: black;
+}
+
+figcaption {
+  margin-left: 80%;
+}
+
+/* TODO: Club career section area */
+.club-career {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-bottom: 60px;
+}
+
+.border2 {
+  border: 5px solid lawngreen;
+  padding: 15px;
+  margin-top: 20px;
+  background-color: white;
+  color: black;
+  width: 650px;
+  height: 200px;
+  border-style: dashed;
+  border-radius: 4px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.club img {
+  object-fit: contain;
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  margin-right: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  flex: 1;
+}
+
+li {
+  text-align: justify;
+}
+.club ul li:first-child {
+  font-size: 20px;
+  font-family: "Audiowide", sans-serif;
+}
+
+.club ul li:nth-child(2) {
+  margin-top: 10px;
+  font-family: Arial, sans-serif;
+}
+
+/* TODO: Achivements section area */
+.achivements {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.border3 {
+  border: 2px solid white;
+  padding: 15px;
+  margin-top: 20px;
+  background-color: lawngreen;
+  color: black;
+  width: 500px;
+  height: 150px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* TODO: Info section area */
+#tribute-link {
+  text-align: center;
+  display: block;
+  color: white;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+#tribute-link:hover {
+  color: lawngreen;
+}
+
+/* TODO: Footer section area */
+footer {
+  background-color: rgb(54, 53, 53);
+  padding: 20px;
+  text-align: center;
+  justify-content: center;
+  color: white;
+}
+
+footer img {
+  margin-top: 20px;
+  object-fit: contain;
+  width: 200px;
+  height: 200px;
+  border-radius: 150px;
+  border: 1px solid transparent;
+}
+footer img:hover {
+  border: 2px solid lawngreen;
+}
+.foot-panel1 {
+  color: white;
+  height: 400px;
+  display: block;
+  font-size: 30px;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+}
+.foot-panel1 li {
+  margin-top: 20px;
+  margin-left: 30px;
+}
+.foot-panel1 li:hover {
+  text-decoration: underline;
+}
+
+.foot-copyright {
+  border-top: 2px solid black;
+  padding-top: 10px;
+}
