@@ -44,7 +44,7 @@ body {
   font-size: 30px;
 }
 
-/* TODO: Tribute page, each section(About,Club career, achivements, info) styling*/
+/* TODO: Tribute page, each section styling reusable*/
 .sec-title {
   font-family: "Audiowide", sans-serif;
   text-align: center;
