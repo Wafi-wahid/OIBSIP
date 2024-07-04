@@ -150,8 +150,8 @@ li {
   font-family: Arial, sans-serif;
 }
 
-/* TODO: Achivements section area */
-.achivements {
+/* TODO: Achievements section area */
+.achievements {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -207,7 +207,7 @@ footer img:hover {
   color: white;
   height: 400px;
   display: block;
-  font-size: 30px;
+  font-size: 20px;
   text-align: center;
   justify-content: center;
   display: flex;
@@ -216,10 +216,12 @@ footer img:hover {
   margin-top: 20px;
   margin-left: 30px;
 }
-.foot-panel1 li:hover {
-  text-decoration: underline;
+.foot-panel1 li a {
+  color: white;
 }
-
+.foot-panel1 li a:hover {
+  color: lawngreen;
+}
 .foot-copyright {
   border-top: 2px solid black;
   padding-top: 10px;
