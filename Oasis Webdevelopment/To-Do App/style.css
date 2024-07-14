@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav-bar {
+  background-color: #828dff;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+body {
+  background-color: #000430;
+  color: white;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 120px auto 0 auto;
+  max-width: 500px;
+}
+.stats-container {
+  padding: 30px;
+  border-radius: 20px;
+  border: 2px solid #828dff;
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  width: 100%;
+}
+#details {
+  width: 100%;
+}
+#progressBar {
+  width: 100%;
+  height: 10px;
+  background-color: #171c48;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+#progress {
+  width: 80%;
+  height: 10px;
+  background-color: #24feee;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+#numbers {
+  width: 100px;
+  height: 100px;
+  background-color: #828dff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.time-container {
+  margin-top: 20px;
+}
+
+form {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  gap: 10px;
+}
+input {
+  flex: 1;
+  padding: 16px;
+  background-color: #171c48;
+  border: 1px solid #828dff;
+  border-radius: 1px;
+  outline: none;
+  color: white;
+}
+button {
+  width: 100px;
+  height: 35px;
+  border-radius: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #828dff;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  outline: none;
+}
+
+#task-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 30px;
+  width: 100%;
+  list-style: none;
+}
+.taskItem {
+  display: flex;
+  background-color: #171c48;
+  padding: 20px;
+  border-radius: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+.taskItem i {
+  width: 24px;
+  height: 24px;
+  margin: 0;
+  cursor: pointer;
+}
+.task {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+#taskInput {
+  width: 20px;
+  height: 20px;
+}
+.task.completed {
+  text-decoration: line-through;
+  color: #24feee;
+}
+
+.filters {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  gap: 20px;
+}
+
+.filter {
+  color: #eee;
+  padding: 5px 15px;
+  border-radius: 100px;
+  border: 2px solid #828dff;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.filter.active,
+.filter:hover {
+  background-color: #505bba;
+}
+
+.delete-all {
+  color: #ff2600;
+  background-color: transparent;
+  border: 2px solid #ff2600;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo App</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <div class="nav-bar">
+      <h1>My To-Do App</h1>
+    </div>
+  </head>
+  <body>
+    <div class="container">
+      <div class="stats-container">
+        <div class="stats-detail">
+          <h1>Welcome!</h1>
+          <p>Just do it!</p>
+          <div id="progressBar">
+            <div id="progress"></div>
+          </div>
+        </div>
+        <div class="stats-number">
+          <p id="numbers">0 / 0</p>
+        </div>
+      </div>
+      <div class="time-container">
+        <p><span id="datetime"></span></p>
+        <script src="time.js"></script>
+      </div>
+
+      <form>
+        <input
+          type="text"
+          id="taskInput"
+          placeholder="Write your Todays task here"
+        />
+        <button id="newTask" type="submit">Add Task</button>
+      </form>
+
+      <div class="filters">
+        <div class="filter" data-filter="all">All</div>
+        <div class="filter" data-filter="completed">Completed Task</div>
+        <div class="filter" data-filter="pending">Pending Task</div>
+        <div class="filter delete-all">Delete All</div>
+      </div>
+
+      <ul id="task-list"></ul>
+    </div>
+  </body>
+  <script src="./main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tsparticles/confetti@3.0.3/tsparticles.confetti.bundle.min.js"></script>
+</html>
