@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Secured Page</title>
+  </head>
+  <body>
+    <h1>Welcome to the secured page!</h1>
+    <button id="logoutBtn">Logout</button>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const loggedInUser = sessionStorage.getItem("loggedInUser");
+        if (!loggedInUser) {
+          alert("You need to log in to access this page.");
+          window.location.href = "index.html";
+        }
+
+        const logoutBtn = document.getElementById("logoutBtn");
+        logoutBtn.addEventListener("click", function () {
+          sessionStorage.removeItem("loggedInUser");
+          window.location.href = "index.html";
+        });
+      });
+    </script>
+  </body>
+</html>
